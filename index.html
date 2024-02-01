@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./assets/imagenes/logotipo.png">
+        <script src="https://kit.fontawesome.com/32269cc2f6.js" crossorigin="anonymous"></script>
+        <title>Uzbeshop</title>
+    </head>
+    <body>
+        <header>
+            <img class="img-header" src="./assets/imagenes/logotipo.png">
+            <nav>
+
+                <input type="search" id="" placeholder="Buscar" class="input_search"><button class="btn-search"><i class="fa-solid fa-magnifying-glass lupa"></i></button>
+
+                <div class="container-menu">
+                    <i class="fas fa-bars menu-hamburguer"></i>
+                </div>
+
+                <ul class="navbar-list">
+                    <li><a href="#Portada" class="navbar-link">Portada</a></li>
+                    <li><a href="#Nosotros" class="navbar-link">Nosotros</a></li>
+                    <li><a href="#Productos" class="navbar-link">Productos</a></li>
+                    <li><a href="#Contacto" class="navbar-link">Contacto</a></li>
+                </ul>
+
+                <div class="container-cart">
+                    <i class="fa-solid fa-bag-shopping cart">
+                        <div class="cart-bubble">0</div>
+                    </i>
+                </div>
+
+                <div class="menu-cart">
+                    <h2>Tu pedido</h2>
+
+                    <div class="container-compra">
+
+                    </div>
+
+                    <span class="divisor"></span>
+
+                    <div class="cart-total">
+                        <p>Total:</p>
+                        <span class="total">$0</span>
+                    </div>
+
+                    <div class="btn-contenedor">
+                        <button class="btn-comprar">Comprar</button>
+                        <button class="btn-vaciar">Vaciar carrito</button>
+                    </div>
+                </div>
+
+                <div class="overlay"></div>
+
+            </nav>
+        </header>
+        <main>
+            <section class="portada" id="Portada">
+                <div class="text">
+                    <h2>¡El verano llegó y tenemos lo mejor para vos!</h2>
+                    <p>La ropa de mejor calidad está frente a vos, no dudes y hecha un vistazo.</p>
+                </div>
+            </section>
+            <section class="nosotros" id="Nosotros">
+                <div class="img">
+                    <img src="./assets/imagenes/logotipo.png">
+                </div>
+                <div class="info">
+                    <p>Somos uzbeshop, nos dedicamos a la venta de una única marca.</p>
+                    <p>Uzbeshop es la marca más elegida en todo el país.</p>
+                    <p>Desde nuestra fundación, nos comprometimos a ofrecer prendas de la más alta cálidad.</p>
+                    <p>Nuestra historia refleja nuestro constante esfuerzo por superar expectativas.</p>
+                </div>
+            </section>
+            <section class="productos" id="Productos">
+                <div class="container-category">
+                    <button class="btn-category active">Todos</button>
+                    <button class="btn-category" data-category="Remeras">Remeras</button>
+                    <button class="btn-category" data-category="Pantalones">Pantalones</button>
+                    <button class="btn-category" data-category="Bermudas">Bermudas</button>
+                    <button class="btn-category" data-category="Zapatillas">Zapatillas</button>
+                </div>
+                <div class="container-productos">
+
+                </div>
+                <div class="container-btn">
+                    <button class="btn-load">Ver Más</button>
+                </div>
+            </section>
+            <section class="contacto" id="Contacto">
+                <div class="texto">
+                    <h2>Contactanos</h2>
+                </div>
+                <form action="">
+                    <div class="columna">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" name="nombre">
+                    </div>
+                    <div class="columna">
+                        <label for="celular">Celular</label>
+                        <input type="tel" placeholder="Celular" name="celular">
+                    </div>
+                    <div class="columna">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div class="columna">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" cols="75" rows="10" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="columna">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="nav-footer">
+                <a href="#Portada">Portada</a>
+                <a href="#Nosotros">Nosotros</a>
+                <a href="#Productos">Productos</a>
+                <a href="#Contacto">Contacto</a>
+            </div>
+
+            <div class="nav-footer">
+                <a href="#">Política de envíos</a>
+                <a href="#">Trabajá con nosotros</a>
+                <a href="#">Políticas de privacidad</a>
+            </div>
+
+            <div class="nav-iconos">
+                <img src="./assets/imagenes-footer/wsp.png">
+                <p>5493519999999</p>
+            </div>
+
+            <div class="nav-iconos">
+                <i class="fa-solid fa-envelope"></i>
+                <p>uzbeshop@gmail.com</p>
+            </div>
+
+            <div class="nav-iconos">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>9 de Julio 999, Córdoba Capital</p>
+            </div>
+
+            <div class="cards-footer">
+                <img src="./assets/imagenes-mediodepago/visa.png">
+                <img src="./assets/imagenes-mediodepago/mastercard.png">
+                <img src="./assets/imagenes-mediodepago/americanexpresss.png">
+                <img src="./assets/imagenes-mediodepago/dinnerclub.png">
+                <img src="./assets/imagenes-mediodepago/banelco.png">
+                <img src="./assets/imagenes-mediodepago/cabal.png">
+                <img src="./assets/imagenes-mediodepago/naranjax.png">
+                <img src="./assets/imagenes-mediodepago/tarjetashopping.png">
+                <img src="./assets/imagenes-mediodepago/mercadopago.png">
+                <img src="./assets/imagenes-mediodepago/other.png">
+                <img src="./assets/imagenes-mediodepago/argencard.png">
+                <img src="./assets/imagenes-mediodepago/cencosud.png">
+                <img src="./assets/imagenes-mediodepago/pagofacil.png">
+                <img src="./assets/imagenes-mediodepago/rapipago.png">
+            </div>
+        </footer>
+        <div class="add-modal"></div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
