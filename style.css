@@ -239,7 +239,7 @@ header nav .menu-cart .btn-contenedor{
 
 main .portada{
     margin-top: 80px;
-    background-image: url(./assets/imagenes/portada.png);
+    background-image: url(./public/imagenes/portada.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

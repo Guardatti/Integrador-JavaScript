@@ -27,7 +27,7 @@ const createProductTemplate = (product) => {
                 <span>$${precio}</span>
             </div>
             <div class="product-bot">
-                <img class="logo" src="./assets/imagenes/logotipo.png">
+                <img class="logo" src="imagenes/logotipo.png">
                 <button class="btn-add" data-id='${id}' data-nombre='${nombre}' data-precio='${precio}' data-img='${img}'>Add</button>
             </div>
         </div>
