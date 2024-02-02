@@ -235,7 +235,7 @@ export const vProductos = [
         nombre: 'Zapatilla Converse All Star Blanca',
         precio: 78000,
         categoria: 'Zapatillas',
-        img: 'imageneszapatillass/4.jpg',
+        img: 'imageneszapatillas/4.jpg',
     },
     {
         id: 35,
